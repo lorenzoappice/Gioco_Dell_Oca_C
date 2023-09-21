@@ -1,0 +1,87 @@
+DIMENSIONE_MASSIMA_PERCORSO, la dimensione massima che il percorso può assumere, Intero, = 90
+DIMENSIONE_MINIMA_PERCORSO, la dimensione minima che il percorso può assumere, Intero, = 50
+NUMERO_MASSIMO_GIOCATORI, il numero massimo di giocatori che possono prendere parte alla partita, Intero, = 4
+NUMERO_MINIMO_GIOCATORI, il numero minimo di giocatori che possono prendere parte alla partita, Intero, = 2
+FACCIA_MINIMA_DADO, il numero minimo presente sulle facce di un dado, Intero, = 1
+FACCIA_MASSIMA_DADO, il numero massimo presente sulle facce di un dado, Intero, = 6
+NUMERO_DADI, il numero di dadi da utilizzare durante la partita, Intero, = 2
+DISTANZA_OCHE, la distanza nel percorso tra le oche, Intero, = 9
+NUMERO_CASELLE_SPECIALI, il numero di caselle speciali presenti nella partita, Intero, = 7
+
+PRIMO_DADO, la posizione del dado numero 1 nel campo ultimo_lancio del record partita, Intero, = 1
+
+NOME_OCA, il nome della casella oca, Array a una dimensione di caratteri (terminante con FINE_STRINGA), = "OCA\0"
+NOME_PRIGIONE, il nome della casella prigione, Array a una dimensione di caratteri (terminante con FINE_STRINGA), = "PRIGIONE\0"
+NOME_PONTE, il nome della casella ponte, Array a una dimensione di caratteri (terminante con FINE_STRINGA), = "PONTE\0"
+NOME_LABIRINTO, il nome della casella labirinto, Array a una dimensione di caratteri (terminante con FINE_STRINGA), = "LABIRINTO\0"
+NOME_LOCANDA, il nome della casella locanda, Array a una dimensione di caratteri (terminante con FINE_STRINGA), = "LOCANDA\0"
+NOME_POZZO, il nome della casella pozzo, Array a una dimensione di caratteri (terminante con FINE_STRINGA), = "POZZO\0"
+NOME_SCHELETRO, il nome della casella scheletro, Array a una dimensione di caratteri (terminante con FINE_STRINGA), = "SCHELETRO\0"
+NOME_VITTORIA, il nome della casella vittoria, Array a una dimensione di caratteri (terminante con FINE_STRINGA), = "VITTORIA\0"
+NUMERO_MASSIMO_CARATTERI_SIMBOLO, numero di caratteri massimo concessi per il simbolo rappresentante una casella, intero, = 5
+
+ALTEZZA_DISEGNO_CASELLA, il numero di strati in cui è suddiviso il disegno della casella, Intero, = 3
+LARGHEZZA_DISEGNO_CASELLA, il numero di caratteri che forma una casella, Intero, = 5
+SPAZIO_DISPONIBILE_CASELLA, il numero di spazi compresi tra un margine laterale ed un altro nel disegno della casella, Intero, = 4
+
+CONTORNO_LATERALE_CASELLA, il simbolo da utilizzare come contorno laterale della casella, Array a una dimensione di caratteri (terminante con FINE_STRINGA), = "|\0"
+CONTORNO_SUPERIORE_CASELLA, il simbolo da utilizzare come contorno superiore della casella, Array a una dimensione di caratteri (terminante con FINE_STRINGA), = "_\0"
+CONTORNO_INFERIORE_CASELLA, il simbolo da utilizzare come contorno inferiore della casella, Array a una dimensione di caratteri (terminante con FINE_STRINGA), = "_\0"
+LARGHEZZA_TABELLONE, il numero di caselle da stampare in una riga del tabellone, Intero, = 15
+ALTEZZA_TABELLONE, il numero di caselle da stampare in una colonna del tabellone, Intero, = 6
+
+PRIMO_LANCIO_3_6, indica la casella su cui si sposterà il giocatore nel momento in cui arriverà su una casella oca con un 3 e un 6 ottenuto dal primo lancio dei dadi, intero, = 38
+PRIMO_LANCIO_4_5, indica la casella su cui si sposterà il giocatore nel momento in cui arriverà su una casella oca con un 4 e un 5 ottenuto dal primo lancio dei dadi, intero, = 76
+DADO_MINORE_PRIMO_LANCIO, faccia minore del primo lancio risultante nove, intero, = 3
+DADO_MAGGIORE_PRIMO_LANCIO, faccia maggiore del primo lancio risultante nove, intero, = 6
+TURNI_ATTESA_LOCANDA, numero di turni da attendere in seguito all'arrivo sulla casella "locanda", intero, = 3
+CASELLA_ARRIVO_LABIRINTO, numero di casella di arrivo nel percorso composto da 90 caselle sul quale il giocatore verrà spostato in seguito all'arrivo sulla casella "labirinto", intero, = 33
+CASELLA_ARRIVO_SCHELETRO, numero di casella sul quale il giocatore verrà spostato in seguito all'arrivo sulla casella "scheletro", intero, = 1
+DADO_MINORE_USCITA_PRIGIONE, la prima faccia di dado che consente l'uscita dalla prigione, Intero, = 5
+DADO_MAGGIORE_USCITA_PRIGIONE, la seconda faccia di dado che consente l'uscita dalla prigione, Intero, = 7
+
+DIMENSIONE_MINIMA_NOME_PARTITA, la dimensione minima che il nome della partita può avere, Intero, = 3
+DIMENSIONE_MASSIMA_NOME_PARTITA, la dimensione massima che il nome della partita può avere, Intero, = 12
+DIMENSIONE_MINIMA_NOME_GIOCATORE, la dimensione minima che il nome del giocatore può avere, Intero, = 3
+DIMENSIONE_MASSIMA_NOME_GIOCATORE, la dimensione minima che il nome del giocatore può avere, Intero, = 18
+DIMENSIONE_MASSIMA_NOME_CASELLA, la dimensione massima che il nome della casella può avere, Intero, = 9
+FINE_STRINGA, il carattere utilizzato come fine stringa, Carattere, = '\0'
+CARATTERE_A_CAPO, indica lo spostamento su una nuova riga per la stampa a video, carattere, = ‘\n’
+FINE_FILE,  simbolo che indica la fine del file, carattere, = ‘EOF’
+NUMERO_MASSIMO_PARTITE, il numero massimo di partite salvabili, Intero, = 5
+NUMERO_MASSIMO_CLASSIFICATI, numero massimo di giocatori di cui è composta la classifica, intero, = 10
+MOLTIPLICATORE, elemento moltiplicatore della funzione, intero, = 1664525
+INCREMENTO, valore (primo) incrementale della funzione coprimo con DIVISORE, intero, = 1013904223
+DIVISORE, divisore dell'operazione di modulo , intero, = 4294367296
+BASE, la base numerica della funzione di parte intera, Intero, = 10
+NUMERO_MASSIMO_CARATTERI_PERCORSO, il numero massimo di caratteri di un percorso relativo ad un file, Intero, = 256
+PEDINE_DISPONIBILI, i simboli utilizzati per rappresentare i giocatori nella stampa del percorso, Array a una dimensione (NUMERO_MASSIMO_GIOCATORI) di caratteri (terminante con FINE_STRINGA), = "# $ % &"
+CARATTERE_SPAZIO, simbolo indicante uno spazio vuoto tra elementi, carattere, = " "
+NUMERO_MASSIMO_OPZIONI_PRINCIPALE, numero di opzioni disponibili all'interno del menù principale, intero, = 5
+NUMERO_MASSIMO_OPZIONI_AIUTO, numero di opzioni disponibili all'interno del menù aiuto, intero, = 2
+
+
+
+
+//Nuove variabili dopo consegna del 15/05/2023 messe qui in modo da poter essere controllate
+
+POSIZIONE_GIOCATORE_1, la posizione del primo giocatore all'interno dell'array giocatori del record partita, Intero, = 1
+POSIZIONE_GIOCATORE_2, la posizione del secondo giocatore all'interno dell'array giocatori del record partita, Intero, = 2
+POSIZIONE_GIOCATORE_3, la posizione del terzo giocatore all'interno dell'array giocatori del record partita, Intero, = 3
+POSIZIONE_GIOCATORE_4, la posizione del quarto giocatore all'interno dell'array giocatori del record partita, Intero, = 4
+NUMERO_GIOCATORI_STRATO_CASELLA, il numero massimo di giocatori rappresentabili in uno strato del disegno della casella, Intero, = 2
+LUNGHEZZA_SCHERMATA, il numero di caratteri rappresentabili in una riga dello schermo, Intero, = 80
+ALTEZZA_SCHERMATA, il numero di caratteri rappresentabili in una colonna dello schermo, Intero, = 25
+SPIAZZAMENTO_MESSAGGIO_ERRORE, il numero di righe dopo la rappresentazione della schermata nel file da cui iniziare a leggere le coordinate del messaggio di errore, Intero, = 2
+RISPOSTA_AFFERMATIVA_MAIUSCOLO, il carattere in maiuscolo indicante la risposta affermativa da parte dell'utente, Carattere, = 'S'
+RISPOSTA_AFFERMATIVA_MINUSCOLO, il carattere in minuscolo indicante la risposta affermativa da parte dell'utente, Carattere, = 's'
+RISPOSTA_NEGATIVA_MAIUSCOLO, il carattere in maiuscolo indicante la risposta negativa da parte dell'utente, Carattere, = 'N'
+RISPOSTA_NEGATIVA_MINUSCOLO, il carattere in minuscolo indicante la risposta negativa da parte dell'utente, Carattere, = 'n'
+
+TASTO_LANCIO_DADI, il carattere indicante la scelta di voler lanciare i dadi, Carattere, = 'L'
+TASTO_USCITA, il carattere indicante la scelta di voler terminare l'esecuzione del programma, Carattere, = '0'
+TASTO_INDIETRO, il carattere indicante la scelta di voler tornare al menù precedente, Carattere, = '0'
+SPIAZZAMENTO_DADO, il numero di righe successive ad ALTEZZA_SCHERMATA per poter raggiungere le coordinate per la stampa del dado, Intero, = 5
+SPIAZZAMENTO_MESSAGGIO_ERRORE, il numero di righe successive ad ALTEZZA_SCHERMATA per poter raggiungere le informazioni relative alla stampa del messaggio di errore, Intero, = 2
+CARATTERE_PUNTO_FACCIA_DADO, il carattere utilizzato per rappresentare i punti indicanti il numero sulla faccia di un dado, Carattere, = '*'
+NUMERO_MASSIMO_PUNTINI_FACCIA_DADO, il numero massimo di punti che possono essere utilizzati per rappresentare i numeri sulla faccia di un dado, Intero, = 7
